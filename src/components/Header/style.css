@@ -1,0 +1,23 @@
+nav.navbar.navbar-default {
+    margin-bottom: 0;
+}
+
+.navbar-brand {
+  color: white !important;
+}
+
+.navbar {
+  background-color: black;
+}
+
+.navbar-nav .nav-item a {
+  color: white !important;
+}
+
+.navbar-nav .nav-item a:hover {
+  color: yellow !important;
+}
+
+.navbar-nav .nav-item a:active {
+  color: red !important;
+}
