@@ -6,7 +6,7 @@
       "Improve webpage source code for better accessibility.",
     "deploy": "https://edithlinpy.github.io/module1-challenge/",
     "gitlink": "https://github.com/edithlinpy/module1-challenge",
-    "image": "horiseon.jpg"
+    "image": "../images/horiseon.jpg"
   },
   {
     "id": 2,

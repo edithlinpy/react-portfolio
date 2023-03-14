@@ -4,7 +4,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import Project from "../../components/Project";
 import projects from "../../projects.json";
 
-const baseUrl = "../../images/";
+// const baseUrl = "./images/";
 
 
 function ProjectGallery(props) {
@@ -17,10 +17,10 @@ function ProjectGallery(props) {
                   desc={projects[0].desc}
                   deploy={projects[0].deploy}
                   gitlink={projects[0].gitlink}
-                  image={baseUrl + projects[0].image}
+                  image={projects[0].image}
               />
             </Col>
-            {/* <Col>
+            <Col>
               <Project
                   title={projects[1].title}
                   desc={projects[1].desc}
@@ -29,7 +29,7 @@ function ProjectGallery(props) {
                   image={projects[1].image}
               />
             </Col>
-            <Col>
+            {/* <Col>
               <Project
                   title={projects[2].title}
                   desc={projects[2].desc}
