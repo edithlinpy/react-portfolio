@@ -10,11 +10,12 @@ function About() {
                 <Container>
                     <Row>
                         <Col xs={4} className="d-flex align-items-end justify-content-end">
-                            <img src={headshot} alt="Headshot"></img>
+                            <img className="headshot" src={headshot} alt="Headshot"></img>
                         </Col>
                         <Col xs={8} className="align-items-start">
                             <h2>Welcome to My Portfolio</h2>
                             <h1>EDITH LIN</h1>
+                            <p>Do you want to know more about my background? Feel free to download my <a href="https://raw.githubusercontent.com/edithlinpy/react-portfolio/main/public/assets/EdithLinCV.pdf">RESUME</a>.</p>
                         </Col>
                     </Row>
                 </Container>

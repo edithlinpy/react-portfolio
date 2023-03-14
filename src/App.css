@@ -28,6 +28,22 @@
   color: #61dafb;
 }
 
+h1, h5 {
+  color: #FBA92C;
+}
+
+.headshot {
+  border-radius: 30px;
+}
+
+a {
+  color: #fae6b1;
+}
+
+a:hover {
+  color: #FBA92C;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
