@@ -14,7 +14,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 * React JSON data file
 
 ## Installation
-1. Start by scaffolding out a new starter React app by running the following command in your terminal: `npx create-react-app my-app`.
+1. Start by scaffolding out a new starter React app by running the following command in your terminal: 
+`npx create-react-app my-app`.
 
 2. Download this repository and move all the files to my-app folder
 
