@@ -1,0 +1,33 @@
+.project h1 {
+  padding-top: 30px;
+}
+
+.card {
+  width: 18rem;
+  margin: 20px;
+  padding: 10px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  border-bottom-right-radius: 40px 40px !important;
+  min-height: 330px;
+}
+
+.card .fa-spinner {
+  font-size: 180px;
+  position: absolute;
+  left: 25%;
+  top: 25%;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  transition: all .35s;
+}
+
+a {
+  text-decoration-line: none !important;
+}
+
+a:hover{
+  color: DarkSlateBlue;
+  text-decoration-line: none;
+}
