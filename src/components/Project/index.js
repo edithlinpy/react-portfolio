@@ -8,7 +8,8 @@ function Project(props) {
         className="card"
       >
       {/* <img src={require("" + props.image)} className="card-img-top" alt={props.title}></img> */}
-      <img src={require("" + props.image)} className="card-img-top" alt={props.title}></img>
+      {/* <img src={props.image} className="card-img-top" alt={props.title}></img> */}
+      <p>{props.image}</p>
         {!props.image && <i className="fa fa-spinner fa-spin" aria-hidden="true" />}
         <div className="card-body">
           <h5 className="card-title">{props.title}</h5>
