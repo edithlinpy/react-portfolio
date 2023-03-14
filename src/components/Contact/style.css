@@ -1,0 +1,29 @@
+.contact {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.contact input, textarea {
+    width: 75%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+  }
+
+.contact button {
+    margin-bottom: 40px;
+    border-radius: 5px;
+    color: white;
+    background-color: grey;
+}
+
+.contact button:hover {
+    background-color: #FBA92C;
+}
+
+@media only screen and (max-width: 600px) {
+  .contact input, textarea {
+    width: 100%;
+  }
+}
