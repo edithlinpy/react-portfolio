@@ -23,11 +23,19 @@
   transition: all .35s;
 }
 
-a {
+.card-btn {
+  position: absolute;
+  border: none;
+  bottom: 10%;
+  color: grey;
+  font-family: FontAwesome;
+}
+
+/* a {
   text-decoration-line: none !important;
 }
 
 a:hover{
   color: DarkSlateBlue;
   text-decoration-line: none;
-}
+} */

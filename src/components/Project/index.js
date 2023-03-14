@@ -1,9 +1,11 @@
 import React from "react";
+import { Link, Route, Routes } from 'react-router-dom';
 import "./style.css";
 
 function Project(props) {
   return (
-    <a href={props.deploy} target="_blank">
+    // <a href={props.deploy} target="_blank">
+    <Link to={props.deploy} target="_blank">
       <div
         className="card"
       >
@@ -14,9 +16,13 @@ function Project(props) {
         <div className="card-body">
           <h5 className="card-title">{props.title}</h5>
           <p className="card-text">{props.desc}</p>
+            <Link to={props.gitlink} target="_blank">
+              <button className="card-btn">GitHub Link</button>
+            </Link>
         </div>
       </div>
-    </a>
+    </Link>
+    // </a>
   );
 }
 
