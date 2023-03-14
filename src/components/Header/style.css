@@ -2,8 +2,17 @@ nav.navbar.navbar-default {
     margin-bottom: 0;
 }
 
+.brand {
+  border-right: 1px solid white;
+  padding-right: 5px;
+}
+
 .navbar-brand {
   color: white !important;
+  font-family: 'Tilt Neon';
+  padding: 5px;
+  border: 1px solid white;
+  border-radius: 10px;
 }
 
 .navbar {

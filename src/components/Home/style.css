@@ -13,6 +13,11 @@
   .hero h1, .hero h2 {
     color: white;
   }
+
+  .hero p {
+    color: white;
+    text-shadow: 0 0 3px #FBA92C, 0 0 10px black;
+  }
   
   .hero h1 {
     font-size: 100px;
@@ -23,4 +28,12 @@
   .hero h2 {
     padding-top: 140px;
     margin-top: 0;
+  }
+
+  .hero a {
+    color: #fae6b1;
+  }
+  
+  .hero a:hover {
+    color: #FBA92C;
   }

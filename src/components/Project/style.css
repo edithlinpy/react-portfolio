@@ -1,7 +1,3 @@
-.project h1 {
-  padding-top: 30px;
-}
-
 .card {
   width: 18rem;
   margin: 20px;
@@ -10,13 +6,13 @@
   border-bottom-right-radius: 40px 40px !important;
   min-height: 330px;
 }
-
+/* 
 .card .fa-spinner {
   font-size: 180px;
   position: absolute;
   left: 25%;
   top: 25%;
-}
+} */
 
 .card:hover {
   transform: scale(1.1);
@@ -31,11 +27,30 @@
   font-family: FontAwesome;
 }
 
-/* a {
+.card-img-top {
+  height:110px;
+  border: solid 1px lightsteelblue;
+}
+
+a {
   text-decoration-line: none !important;
 }
 
 a:hover{
   color: DarkSlateBlue;
   text-decoration-line: none;
-} */
+}
+
+.github-btn {
+  align-items: end;
+  border: 0px;
+  border-radius: 5px;
+  color: white;
+  background-color: grey;
+  position: absolute;
+  bottom: 10%;
+}
+
+.github-btn:hover {
+    background-color: #FBA92C;
+}

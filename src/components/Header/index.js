@@ -5,9 +5,11 @@ import './style.css';
 function Header() {
     return (
         <nav className="navbar navbar-expand-lg color-nav">
+            <div className="brand">
             <Link className="navbar-brand" to="/">
-                Edith
+                EDITH
             </Link>
+            </div>
             <div>
             <ul className="navbar-nav">
                 <li className="nav-item">
@@ -18,7 +20,7 @@ function Header() {
                             isActive ? 'nav-link active' : 'nav-link'
                         }
                     >
-                        Home
+                        HOME
                 </NavLink>
                 </li>
                 <li className="nav-item">
@@ -29,18 +31,18 @@ function Header() {
                             isActive ? 'nav-link active' : 'nav-link'
                         }
                     >
-                        Projects
+                        PROJECTS
                     </NavLink>
                 </li>
                 <li className="nav-item">
                     <NavLink
-                        to="/contact"
+                        to="/contactForm"
                         end
                         className = {({isActive}) => 
                             isActive ? 'nav-link active' : 'nav-link'
                         }
                     >
-                        contact
+                        CONTACT
                     </NavLink>
                 </li>
             </ul>
