@@ -6,7 +6,7 @@
       "Improve webpage source code for better accessibility.",
     "deploy": "https://edithlinpy.github.io/module1-challenge/",
     "gitlink": "https://github.com/edithlinpy/module1-challenge",
-    "image": "../images/horiseon.jpg"
+    "image": "horiseon.jpg"
   },
   {
     "id": 2,
@@ -15,7 +15,7 @@
       "Customize the default Bootstrap 4 cards, content, and footer components.",
     "deploy": "https://edithlinpy.github.io/rock-nation/",
     "gitlink": "https://github.com/edithlinpy/rock-nation",
-    "image": "../images/rock-nation.jpg"
+    "image": "rock-nation.jpg"
   },
   {
     "id": 3,
@@ -23,7 +23,7 @@
     "desc": "Bring the vision of Travel California to millions of people all over the world.",
     "deploy": "https://edithlinpy.github.io/travel-california/",
     "gitlink": "https://github.com/edithlinpy/travel-california",
-    "image": "../images/travel-california.jpg"
+    "image": "travel-california.jpg"
   },
   {
     "id": 4,
@@ -31,7 +31,7 @@
     "desc": "An application that generates a random password based on user's criteria.",
     "deploy": "https://edithlinpy.github.io/password-generator/",
     "gitlink": "https://github.com/edithlinpy/password-generator",
-    "image": "../images/password-generator.jpg"
+    "image": "password-generator.jpg"
   },
   {
     "id": 5,
@@ -39,7 +39,7 @@
     "desc": "A web-based timed coding quiz with multiple-choice questions written in HTML, CSS & JavaScript.",
     "deploy": "https://edithlinpy.github.io/code-quiz/",
     "gitlink": "https://github.com/edithlinpy/code-quiz",
-    "image": "../images/code-quiz.jpg"
+    "image": "code-quiz.jpg"
   },
   {
     "id": 6,
@@ -47,6 +47,6 @@
     "desc": "A weather dashboard that shows the weather outlook for multiple cities.",
     "deploy": "https://edithlinpy.github.io/5-day-weather-forecast/",
     "gitlink": "https://github.com/edithlinpy/5-day-weather-forecast",
-    "image": "../images/5-day-weather-forecast.jpg"
+    "image": "5-day-weather-forecast.jpg"
   }
 ]
