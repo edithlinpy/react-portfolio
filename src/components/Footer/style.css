@@ -1,0 +1,23 @@
+/* .footer {
+  min-height: 100px;
+  background: #E5E5E5;
+  position: relative;
+} */
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 3px;
+  background: black;
+}
+
+.footer a {
+  color: #fae6b1;
+}
+
+.footer a:hover {
+  color: #FBA92C;
+}
+
